@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="com.hackvg.android.test" tests="2" failures="0" errors="0" skipped="0" time="20.394" timestamp="2015-04-07T05:31:57" hostname="localhost">
+  <properties />
+  <testcase name="testDetialActivityOpen" classname="com.hackvg.android.test.views.activity.MoviesActivityTest" time="11.279" />
+  <testcase name="testMainActivityOpen" classname="com.hackvg.android.test.views.activity.MoviesActivityTest" time="9.121" />
+</testsuite>

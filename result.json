@@ -1,0 +1,97 @@
+{
+  "title": "app debugAndroidTest",
+  "started": 1428384689215,
+  "duration": 29,
+  "results": {
+    "E4AZCY219731": {
+      "installFailed": false,
+      "deviceDetails": {
+        "model": "_T00F",
+        "manufacturer": "asus",
+        "version": "4.4.2",
+        "apiLevel": 19,
+        "language": "zh",
+        "region": "TW",
+        "isEmulator": false
+      },
+      "testResults": [
+        [
+          {
+            "className": "com.hackvg.android.test.views.activity.MoviesActivityTest",
+            "methodName": "testDetialActivityOpen"
+          },
+          {
+            "status": "PASS",
+            "duration": 10,
+            "screenshots": [
+              "/Users/fantasy_wok/Documents/gitfile/Material-Movies/HackVG/app/build/spoon/debug/image/E4AZCY219731/com.hackvg.android.test.views.activity.MoviesActivityTest/testDetialActivityOpen/1428384706002_MovieDetailActivity.png"
+            ],
+            "log": []
+          }
+        ],
+        [
+          {
+            "className": "com.hackvg.android.test.views.activity.MoviesActivityTest",
+            "methodName": "testMainActivityOpen"
+          },
+          {
+            "status": "PASS",
+            "duration": 7,
+            "screenshots": [
+              "/Users/fantasy_wok/Documents/gitfile/Material-Movies/HackVG/app/build/spoon/debug/image/E4AZCY219731/com.hackvg.android.test.views.activity.MoviesActivityTest/testMainActivityOpen/1428384713270_MoviesActivity.png"
+            ],
+            "log": []
+          }
+        ]
+      ],
+      "started": 1428384691163,
+      "duration": 18,
+      "exceptions": []
+    },
+    "05089ff80024dd4f": {
+      "installFailed": false,
+      "deviceDetails": {
+        "model": "Nexus 5",
+        "manufacturer": "LGE",
+        "version": "5.1",
+        "apiLevel": 22,
+        "language": "en",
+        "region": "US",
+        "isEmulator": false
+      },
+      "testResults": [
+        [
+          {
+            "className": "com.hackvg.android.test.views.activity.MoviesActivityTest",
+            "methodName": "testDetialActivityOpen"
+          },
+          {
+            "status": "PASS",
+            "duration": 11,
+            "screenshots": [
+              "/Users/fantasy_wok/Documents/gitfile/Material-Movies/HackVG/app/build/spoon/debug/image/05089ff80024dd4f/com.hackvg.android.test.views.activity.MoviesActivityTest/testDetialActivityOpen/1428384704443_MovieDetailActivity.png"
+            ],
+            "log": []
+          }
+        ],
+        [
+          {
+            "className": "com.hackvg.android.test.views.activity.MoviesActivityTest",
+            "methodName": "testMainActivityOpen"
+          },
+          {
+            "status": "PASS",
+            "duration": 9,
+            "screenshots": [
+              "/Users/fantasy_wok/Documents/gitfile/Material-Movies/HackVG/app/build/spoon/debug/image/05089ff80024dd4f/com.hackvg.android.test.views.activity.MoviesActivityTest/testMainActivityOpen/1428384712179_MoviesActivity.png"
+            ],
+            "log": []
+          }
+        ]
+      ],
+      "started": 1428384690988,
+      "duration": 20,
+      "exceptions": []
+    }
+  }
+}
