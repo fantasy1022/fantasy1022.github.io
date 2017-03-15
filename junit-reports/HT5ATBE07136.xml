@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="com.fantasyfang.googletrendapp.mock.test" tests="7" failures="2" errors="0" skipped="0" time="23.253" timestamp="2017-03-15T08:41:15" hostname="localhost">
+  <properties />
+  <testcase name="mainActivity_RecycleViewChangeGridSize" classname="com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivityTest" time="8.386" />
+  <testcase name="mainActivity_Display_Get_Trend_error" classname="com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivityTest" time="1.602" />
+  <testcase name="mainActivity_RecycleViewClickItem" classname="com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivityTest" time="2.59" />
+  <testcase name="mainActivity_onLaunch_RecycleViewDisplayed" classname="com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivityTest" time="1.722" />
+  <testcase name="mainActivity_RecycleViewChangeCountry" classname="com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivityTest" time="7.971" />
+  <testcase name="mainActivity_Orientation_To_Landscape" classname="com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivityTest" time="0.363">
+    <failure>java.lang.ClassCastException: com.android.internal.policy.DecorContext cannot be cast to android.app.Activity
+at com.fantasyfang.googletrendapp.presentation.utils.OrientationChangeAction.perform(OrientationChangeAction.java:65)
+at android.support.test.espresso.ViewInteraction$1.run(ViewInteraction.java:144)
+at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:428)
+at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+at android.os.Handler.handleCallback(Handler.java:751)
+at android.os.Handler.dispatchMessage(Handler.java:95)
+at android.os.Looper.loop(Looper.java:173)
+at android.app.ActivityThread.main(ActivityThread.java:6459)
+at java.lang.reflect.Method.invoke(Native Method)
+at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:938)
+at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:828)
+</failure>
+  </testcase>
+  <testcase name="mainActivity_Orientation_To_Landscape_TO31" classname="com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivityTest" time="0.309">
+    <failure>java.lang.ClassCastException: com.android.internal.policy.DecorContext cannot be cast to android.app.Activity
+at com.fantasyfang.googletrendapp.presentation.utils.OrientationChangeAction.perform(OrientationChangeAction.java:65)
+at android.support.test.espresso.ViewInteraction$1.run(ViewInteraction.java:144)
+at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:428)
+at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+at android.os.Handler.handleCallback(Handler.java:751)
+at android.os.Handler.dispatchMessage(Handler.java:95)
+at android.os.Looper.loop(Looper.java:173)
+at android.app.ActivityThread.main(ActivityThread.java:6459)
+at java.lang.reflect.Method.invoke(Native Method)
+at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:938)
+at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:828)
+</failure>
+  </testcase>
+</testsuite>

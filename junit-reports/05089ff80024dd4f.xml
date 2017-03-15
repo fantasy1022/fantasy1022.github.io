@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="com.fantasyfang.googletrendapp.mock.test" tests="7" failures="0" errors="0" skipped="0" time="28.296" timestamp="2017-03-15T08:41:26" hostname="localhost">
+  <properties />
+  <testcase name="mainActivity_RecycleViewChangeGridSize" classname="com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivityTest" time="7.055" />
+  <testcase name="mainActivity_Display_Get_Trend_error" classname="com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivityTest" time="1.322" />
+  <testcase name="mainActivity_RecycleViewClickItem" classname="com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivityTest" time="2.21" />
+  <testcase name="mainActivity_onLaunch_RecycleViewDisplayed" classname="com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivityTest" time="1.259" />
+  <testcase name="mainActivity_RecycleViewChangeCountry" classname="com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivityTest" time="6.824" />
+  <testcase name="mainActivity_Orientation_To_Landscape" classname="com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivityTest" time="4.28" />
+  <testcase name="mainActivity_Orientation_To_Landscape_TO31" classname="com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivityTest" time="5.049" />
+</testsuite>

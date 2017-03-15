@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Main Activity, Recycle View Click Item</title>
+        <link href="https://fonts.googleapis.com/css?family=Roboto:regular,medium,thin,italic,mediumitalic,bold" rel="stylesheet">
+        <link href="../../../static/bootstrap.min.css" rel="stylesheet">
+        <link href="../../../static/bootstrap-responsive.min.css" rel="stylesheet">
+        <link href="../../../static/spoon.css" rel="stylesheet">
+        <script src="../../../static/jquery.min.js"></script>
+        <script src="../../../static/bootstrap.min.js"></script>
+        <meta name="description" content="Test passed in 2 seconds on LGE Nexus 5">
+    </head>
+    <body>
+        <div class="container">
+            <div class="hero-unit">
+                <h1>Main Activity, Recycle View Click Item</h1>
+                <p>Test passed in 2 seconds on LGE Nexus 5</p>
+            </div>
+            <div class="row log">
+                <div class="span12">
+                    <table class="table table-striped table-hover table-condensed">
+                        <thead>
+                            <tr>
+                                <th>Timestamp</th>
+                                <th>Level</th>
+                                <th>Tag</th>
+                                <th>Message</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="level-info info">
+                                <td>03-15 16:41:02.707</td>
+                                <td>info</td>
+                                <td>TestRunner</td>
+                                <td>started: mainActivity_RecycleViewClickItem(com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivityTest)</td>
+                            </tr>
+                            <tr class="level-info info">
+                                <td>03-15 16:41:02.727</td>
+                                <td>info</td>
+                                <td>MonitoringInstrumentation</td>
+                                <td>Activities that are still in CREATED to STOPPED: 2</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.727</td>
+                                <td>debug</td>
+                                <td>ActivityTestRule</td>
+                                <td>Launching activity com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivity</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.730</td>
+                                <td>debug</td>
+                                <td>MonitoringInstrumentation</td>
+                                <td>execStartActivity(context, ibinder, ibinder, activity, intent, int, bundle</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.812</td>
+                                <td>debug</td>
+                                <td>LifecycleMonitor</td>
+                                <td>Lifecycle status change: com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivity@3920fb3 in: PRE_ON_CREATE</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.836</td>
+                                <td>debug</td>
+                                <td>LifecycleMonitor</td>
+                                <td>Lifecycle status change: com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivity@3920fb3 in: CREATED</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.836</td>
+                                <td>debug</td>
+                                <td>LifecycleMonitor</td>
+                                <td>Lifecycle status change: com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivity@3920fb3 in: STARTED</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.836</td>
+                                <td>debug</td>
+                                <td>LifecycleMonitor</td>
+                                <td>Lifecycle status change: com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivity@3920fb3 in: RESUMED</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.837</td>
+                                <td>debug</td>
+                                <td>GoogleTrendActivity</td>
+                                <td>showLoading</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.837</td>
+                                <td>debug</td>
+                                <td>GoogleTrendActivity</td>
+                                <td>hideLoading</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.843</td>
+                                <td>debug</td>
+                                <td>GoogleTrendActivity</td>
+                                <td>onDestroy</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.844</td>
+                                <td>debug</td>
+                                <td>LifecycleMonitor</td>
+                                <td>Lifecycle status change: com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivity@9bcbe45 in: DESTROYED</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.916</td>
+                                <td>debug</td>
+                                <td>GoogleTrendPresenter</td>
+                                <td>Get trend result successful</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.916</td>
+                                <td>debug</td>
+                                <td>GoogleTrendActivity</td>
+                                <td>showTrendResult</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.923</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>flipSpeed:1000flipDirectionType:0</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.927</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>startAllAnimation</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.927</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>flipSpeed:1000flipDirectionType:0</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.930</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>startAllAnimation</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.931</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>flipSpeed:1000flipDirectionType:0</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.935</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>startAllAnimation</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.935</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>getSuggestedMinimumWidth():0 widthMeasureSpec1073742184</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.935</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>getSuggestedMinimumHeight():0 widthMeasureSpec1073742464</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.935</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>width:360</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.935</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>height:640</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.936</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>getSuggestedMinimumWidth():0 widthMeasureSpec1073742184</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.936</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>getSuggestedMinimumHeight():0 widthMeasureSpec1073742464</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.936</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>width:360</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.936</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>height:640</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.936</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>getSuggestedMinimumWidth():0 widthMeasureSpec1073742184</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.936</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>getSuggestedMinimumHeight():0 widthMeasureSpec1073742464</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.936</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>width:360</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.936</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>height:640</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.938</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>flipSpeed:1000flipDirectionType:0</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.942</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>startAllAnimation</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.943</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>flipSpeed:1000flipDirectionType:0</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.946</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>startAllAnimation</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.947</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>flipSpeed:1000flipDirectionType:0</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.951</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>startAllAnimation</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.951</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>getSuggestedMinimumWidth():0 widthMeasureSpec1073742184</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.951</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>getSuggestedMinimumHeight():0 widthMeasureSpec1073742464</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.951</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>width:360</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.951</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>height:640</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.951</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>getSuggestedMinimumWidth():0 widthMeasureSpec1073742184</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.951</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>getSuggestedMinimumHeight():0 widthMeasureSpec1073742464</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.952</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>width:360</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.952</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>height:640</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.952</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>getSuggestedMinimumWidth():0 widthMeasureSpec1073742184</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.952</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>getSuggestedMinimumHeight():0 widthMeasureSpec1073742464</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.952</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>width:360</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.952</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>height:640</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.954</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>flipSpeed:1000flipDirectionType:0</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.958</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>startAllAnimation</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.959</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>flipSpeed:1000flipDirectionType:0</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.962</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>startAllAnimation</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.963</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>flipSpeed:1000flipDirectionType:0</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.965</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>startAllAnimation</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.966</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>getSuggestedMinimumWidth():0 widthMeasureSpec1073742184</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.966</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>getSuggestedMinimumHeight():0 widthMeasureSpec1073742464</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.966</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>width:360</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.966</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>height:640</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.966</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>getSuggestedMinimumWidth():0 widthMeasureSpec1073742184</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.966</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>getSuggestedMinimumHeight():0 widthMeasureSpec1073742464</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.966</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>width:360</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.966</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>height:640</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.967</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>getSuggestedMinimumWidth():0 widthMeasureSpec1073742184</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.967</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>getSuggestedMinimumHeight():0 widthMeasureSpec1073742464</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.967</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>width:360</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.967</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>height:640</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.992</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>getSuggestedMinimumWidth():0 widthMeasureSpec1073742184</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.992</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>getSuggestedMinimumHeight():0 widthMeasureSpec1073742464</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.992</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>width:360</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.992</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>height:640</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.993</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>getSuggestedMinimumWidth():0 widthMeasureSpec1073742184</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.993</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>getSuggestedMinimumHeight():0 widthMeasureSpec1073742464</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.993</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>width:360</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.993</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>height:640</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.993</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>getSuggestedMinimumWidth():0 widthMeasureSpec1073742184</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.993</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>getSuggestedMinimumHeight():0 widthMeasureSpec1073742464</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.993</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>width:360</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.993</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>height:640</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.993</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>getSuggestedMinimumWidth():0 widthMeasureSpec1073742184</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.993</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>getSuggestedMinimumHeight():0 widthMeasureSpec1073742464</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.993</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>width:360</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.993</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>height:640</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.993</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>getSuggestedMinimumWidth():0 widthMeasureSpec1073742184</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.993</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>getSuggestedMinimumHeight():0 widthMeasureSpec1073742464</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.993</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>width:360</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.993</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>height:640</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.994</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>getSuggestedMinimumWidth():0 widthMeasureSpec1073742184</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.994</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>getSuggestedMinimumHeight():0 widthMeasureSpec1073742464</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.994</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>width:360</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.994</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>height:640</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.994</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>getSuggestedMinimumWidth():0 widthMeasureSpec1073742184</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.994</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>getSuggestedMinimumHeight():0 widthMeasureSpec1073742464</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.994</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>width:360</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.994</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>height:640</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.994</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>getSuggestedMinimumWidth():0 widthMeasureSpec1073742184</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.994</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>getSuggestedMinimumHeight():0 widthMeasureSpec1073742464</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.994</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>width:360</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.994</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>height:640</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.994</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>getSuggestedMinimumWidth():0 widthMeasureSpec1073742184</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.994</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>getSuggestedMinimumHeight():0 widthMeasureSpec1073742464</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.994</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>width:360</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:02.994</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>height:640</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:03.040</td>
+                                <td>debug</td>
+                                <td>LifecycleMonitor</td>
+                                <td>Lifecycle status change: com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivity@1f58955 in: STOPPED</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:03.040</td>
+                                <td>debug</td>
+                                <td>GoogleTrendActivity</td>
+                                <td>onDestroy</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:03.040</td>
+                                <td>debug</td>
+                                <td>LifecycleMonitor</td>
+                                <td>Lifecycle status change: com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivity@1f58955 in: DESTROYED</td>
+                            </tr>
+                            <tr class="level-info info">
+                                <td>03-15 16:41:03.050</td>
+                                <td>info</td>
+                                <td>ViewInteraction</td>
+                                <td>Performing &#39;single click&#39; action on view with id: com.fantasyfang.googletrendapp.mock:id/trendRecycleView</td>
+                            </tr>
+                            <tr class="level-info info">
+                                <td>03-15 16:41:03.478</td>
+                                <td>info</td>
+                                <td>ViewInteraction</td>
+                                <td>Performing &#39;actionOnItemAtPosition performing ViewAction: single click on item at position: 0&#39; action on view with id: com.fantasyfang.googletrendapp.mock:id/trendRecycleView</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:04.166</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>direction number:2</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:04.180</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>Animation complete</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:04.181</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>getSuggestedMinimumWidth():0 widthMeasureSpec1073742184</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:04.182</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>getSuggestedMinimumHeight():0 widthMeasureSpec1073742464</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:04.182</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>width:360</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:04.182</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>height:640</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:04.481</td>
+                                <td>debug</td>
+                                <td>Spoon</td>
+                                <td>Captured screenshot &#39;Country_menu&#39;.</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:04.604</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>direction number:3</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:04.619</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>Animation complete</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:04.619</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>getSuggestedMinimumWidth():0 widthMeasureSpec1073742184</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:04.619</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>getSuggestedMinimumHeight():0 widthMeasureSpec1073742464</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:04.619</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>width:360</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:04.619</td>
+                                <td>debug</td>
+                                <td>FlipPageView</td>
+                                <td>height:640</td>
+                            </tr>
+                            <tr class="level-debug ">
+                                <td>03-15 16:41:04.907</td>
+                                <td>debug</td>
+                                <td>Falcon</td>
+                                <td>Screenshot captured to /storage/emulated/0/app_spoon-screenshots/com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivityTest/mainActivity_RecycleViewClickItem/1489567264024_Country_menu.png</td>
+                            </tr>
+                            <tr class="level-info info">
+                                <td>03-15 16:41:04.928</td>
+                                <td>info</td>
+                                <td>TestRunner</td>
+                                <td>finished: mainActivity_RecycleViewClickItem(com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivityTest)</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
