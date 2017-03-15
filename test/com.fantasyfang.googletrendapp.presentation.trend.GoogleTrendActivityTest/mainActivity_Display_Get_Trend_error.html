@@ -10,17 +10,17 @@
         <link href="../../static/spoon.css" rel="stylesheet">
         <script src="../../static/jquery.min.js"></script>
         <script src="../../static/bootstrap.min.js"></script>
-        <meta name="description" content="Ran on 1 device with 0 passing and 1 failing">
+        <meta name="description" content="Ran on 3 devices with 3 passing and 0 failing in an average of 1 second">
     </head>
     <body>
         <div class="container">
             <div class="hero-unit">
                 <h1>Main Activity, Display, Get, Trend ,error</h1>
-                <p>Ran on 1 device with 0 passing and 1 failing</p>
+                <p>Ran on 3 devices with 3 passing and 0 failing in an average of 1 second</p>
             </div>
             <div class="row">
                 <div class="span12">
-                    <h2 class="test-result fail">
+                    <h2 class="test-result pass">
                         asus _T00F
                         <!-- Icons modified from Glyphish Free. http://glyphish.com -->
                         <a href="../../logs/E4AZCY219731/com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivityTest/mainActivity_Display_Get_Trend_error.html" title="View device log" class="pull-right icon">
@@ -29,52 +29,65 @@
                         <a href="../../device/E4AZCY219731.html" title="View only this device" class="pull-right icon">
                             <img src="../../static/icon-devices.png" alt="View only this device">
                         </a>
+                        <a href="../../" title="View as animated GIF" class="pull-right icon">
+                            <img src="../../static/icon-animated.png" alt="View as animated GIF">
+                        </a>
                     </h2>
-                    <div class="alert alert-error stacktrace fail">
-                        <h4 data-toggle="collapse" data-target="#stacktrace-E4AZCY219731">android.support.test.espresso.base.DefaultFailureHandler$AssertionFailedWithCauseError: 'is displayed on the screen to the user' doesn't match the selected view.<br/>Expected: is displayed on the screen to the user<br/>Got: "AppCompatTextView{id=2131492965, res-name=noTrendInfoTxt, visibility=INVISIBLE, width=657, height=67, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, root-is-layout-requested=false, has-input-connection=false, x=31.0, y=525.0, text=Do not have the newest trend., input-type=0, ime-target=false, has-links=false}"</h4>
-                        <div class="stacktrace-body collapse" id="stacktrace-E4AZCY219731">
-                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at dalvik.system.VMStack.getThreadStackTrace(Native Method)</div>
-                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at java.lang.Thread.getStackTrace(Thread.java:579)</div>
-                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at android.support.test.espresso.base.DefaultFailureHandler.getUserFriendlyError(DefaultFailureHandler.java:92)</div>
-                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at android.support.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:56)</div>
-                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at android.support.test.espresso.ViewInteraction.runSynchronouslyOnUiThread(ViewInteraction.java:184)</div>
-                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at android.support.test.espresso.ViewInteraction.check(ViewInteraction.java:158)</div>
-                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivityTest.mainActivity_Display_Get_Trend_error(GoogleTrendActivityTest.java:117)</div>
-                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at java.lang.reflect.Method.invokeNative(Native Method)</div>
-                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at java.lang.reflect.Method.invoke(Method.java:515)</div>
-                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)</div>
-                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)</div>
-                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)</div>
-                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)</div>
-                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)</div>
-                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at android.support.test.internal.statement.UiThreadStatement.evaluate(UiThreadStatement.java:55)</div>
-                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at android.support.test.rule.ActivityTestRule$ActivityStatement.evaluate(ActivityTestRule.java:270)</div>
-                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at org.junit.rules.RunRules.evaluate(RunRules.java:20)</div>
-                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)</div>
-                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)</div>
-                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)</div>
-                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)</div>
-                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)</div>
-                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)</div>
-                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)</div>
-                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)</div>
-                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at org.junit.runners.ParentRunner.run(ParentRunner.java:363)</div>
-                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at org.junit.runners.Suite.runChild(Suite.java:128)</div>
-                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at org.junit.runners.Suite.runChild(Suite.java:27)</div>
-                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)</div>
-                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)</div>
-                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)</div>
-                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)</div>
-                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)</div>
-                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at org.junit.runners.ParentRunner.run(ParentRunner.java:363)</div>
-                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at org.junit.runner.JUnitCore.run(JUnitCore.java:137)</div>
-                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at org.junit.runner.JUnitCore.run(JUnitCore.java:115)</div>
-                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at android.support.test.internal.runner.TestExecutor.execute(TestExecutor.java:59)</div>
-                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at android.support.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:262)</div>
-                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1701)</div>
-                            <div class="stacktrace-line">Caused by: junit.framework.AssertionFailedError: 'is displayed on the screen to the user' doesn't match the selected view.<br/>Expected: is displayed on the screen to the user<br/>Got: "AppCompatTextView{id=2131492965, res-name=noTrendInfoTxt, visibility=INVISIBLE, width=657, height=67, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, root-is-layout-requested=false, has-input-connection=false, x=31.0, y=525.0, text=Do not have the newest trend., input-type=0, ime-target=false, has-links=false}"</div>
-                        </div>
-                    </div>
+                    <ul class="thumbnails">
+                        <li class="span2">
+                            <a href="../../image/E4AZCY219731/com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivityTest/mainActivity_Display_Get_Trend_error/1489567278595_Error_screen.png" class="thumbnail">
+                                <img src="../../image/E4AZCY219731/com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivityTest/mainActivity_Display_Get_Trend_error/1489567278595_Error_screen.png" title="Error Screen">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="span12">
+                    <h2 class="test-result pass">
+                        HTC _A9u
+                        <!-- Icons modified from Glyphish Free. http://glyphish.com -->
+                        <a href="../../logs/HT5ATBE07136/com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivityTest/mainActivity_Display_Get_Trend_error.html" title="View device log" class="pull-right icon">
+                            <img src="../../static/icon-log.png" alt="View device log">
+                        </a>
+                        <a href="../../device/HT5ATBE07136.html" title="View only this device" class="pull-right icon">
+                            <img src="../../static/icon-devices.png" alt="View only this device">
+                        </a>
+                        <a href="../../" title="View as animated GIF" class="pull-right icon">
+                            <img src="../../static/icon-animated.png" alt="View as animated GIF">
+                        </a>
+                    </h2>
+                    <ul class="thumbnails">
+                        <li class="span2">
+                            <a href="../../image/HT5ATBE07136/com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivityTest/mainActivity_Display_Get_Trend_error/1489567260392_Error_screen.png" class="thumbnail">
+                                <img src="../../image/HT5ATBE07136/com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivityTest/mainActivity_Display_Get_Trend_error/1489567260392_Error_screen.png" title="Error Screen">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="span12">
+                    <h2 class="test-result pass">
+                        LGE Nexus 5
+                        <!-- Icons modified from Glyphish Free. http://glyphish.com -->
+                        <a href="../../logs/05089ff80024dd4f/com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivityTest/mainActivity_Display_Get_Trend_error.html" title="View device log" class="pull-right icon">
+                            <img src="../../static/icon-log.png" alt="View device log">
+                        </a>
+                        <a href="../../device/05089ff80024dd4f.html" title="View only this device" class="pull-right icon">
+                            <img src="../../static/icon-devices.png" alt="View only this device">
+                        </a>
+                        <a href="../../" title="View as animated GIF" class="pull-right icon">
+                            <img src="../../static/icon-animated.png" alt="View as animated GIF">
+                        </a>
+                    </h2>
+                    <ul class="thumbnails">
+                        <li class="span2">
+                            <a href="../../image/05089ff80024dd4f/com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivityTest/mainActivity_Display_Get_Trend_error/1489567261878_Error_screen.png" class="thumbnail">
+                                <img src="../../image/05089ff80024dd4f/com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivityTest/mainActivity_Display_Get_Trend_error/1489567261878_Error_screen.png" title="Error Screen">
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>

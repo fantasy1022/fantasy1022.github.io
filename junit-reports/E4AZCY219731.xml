@@ -1,74 +1,11 @@
 <?xml version='1.0' encoding='UTF-8' ?>
-<testsuite name="com.fantasyfang.googletrendapp.test" tests="7" failures="1" errors="0" skipped="0" time="30.99" timestamp="2017-03-10T04:26:53" hostname="localhost">
+<testsuite name="com.fantasyfang.googletrendapp.mock.test" tests="7" failures="0" errors="0" skipped="0" time="29.391" timestamp="2017-03-15T08:41:50" hostname="localhost">
   <properties />
-  <testcase name="mainActivity_RecycleViewChangeGridSize" classname="com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivityTest" time="8.041" />
-  <testcase name="mainActivity_Display_Get_Trend_error" classname="com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivityTest" time="0.596">
-    <failure>android.support.test.espresso.base.DefaultFailureHandler$AssertionFailedWithCauseError: 'is displayed on the screen to the user' doesn't match the selected view.
-Expected: is displayed on the screen to the user
-Got: "AppCompatTextView{id=2131492965, res-name=noTrendInfoTxt, visibility=INVISIBLE, width=657, height=67, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, root-is-layout-requested=false, has-input-connection=false, x=31.0, y=525.0, text=Do not have the newest trend., input-type=0, ime-target=false, has-links=false}"
-
-at dalvik.system.VMStack.getThreadStackTrace(Native Method)
-at java.lang.Thread.getStackTrace(Thread.java:579)
-at android.support.test.espresso.base.DefaultFailureHandler.getUserFriendlyError(DefaultFailureHandler.java:92)
-at android.support.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:56)
-at android.support.test.espresso.ViewInteraction.runSynchronouslyOnUiThread(ViewInteraction.java:184)
-at android.support.test.espresso.ViewInteraction.check(ViewInteraction.java:158)
-at com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivityTest.mainActivity_Display_Get_Trend_error(GoogleTrendActivityTest.java:117)
-at java.lang.reflect.Method.invokeNative(Native Method)
-at java.lang.reflect.Method.invoke(Method.java:515)
-at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
-at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
-at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
-at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
-at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
-at android.support.test.internal.statement.UiThreadStatement.evaluate(UiThreadStatement.java:55)
-at android.support.test.rule.ActivityTestRule$ActivityStatement.evaluate(ActivityTestRule.java:270)
-at org.junit.rules.RunRules.evaluate(RunRules.java:20)
-at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
-at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
-at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
-at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-at org.junit.runners.Suite.runChild(Suite.java:128)
-at org.junit.runners.Suite.runChild(Suite.java:27)
-at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
-at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
-at android.support.test.internal.runner.TestExecutor.execute(TestExecutor.java:59)
-at android.support.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:262)
-at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1701)
-Caused by: junit.framework.AssertionFailedError: 'is displayed on the screen to the user' doesn't match the selected view.
-Expected: is displayed on the screen to the user
-Got: "AppCompatTextView{id=2131492965, res-name=noTrendInfoTxt, visibility=INVISIBLE, width=657, height=67, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, root-is-layout-requested=false, has-input-connection=false, x=31.0, y=525.0, text=Do not have the newest trend., input-type=0, ime-target=false, has-links=false}"
-
-at android.support.test.espresso.matcher.ViewMatchers.assertThat(ViewMatchers.java:1053)
-at android.support.test.espresso.assertion.ViewAssertions$2.check(ViewAssertions.java:89)
-at android.support.test.espresso.ViewInteraction$2.run(ViewInteraction.java:170)
-at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:422)
-at java.util.concurrent.FutureTask.run(FutureTask.java:237)
-at android.os.Handler.handleCallback(Handler.java:733)
-at android.os.Handler.dispatchMessage(Handler.java:95)
-at android.os.Looper.loop(Looper.java:149)
-at android.app.ActivityThread.main(ActivityThread.java:5257)
-at java.lang.reflect.Method.invokeNative(Native Method)
-at java.lang.reflect.Method.invoke(Method.java:515)
-at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:793)
-at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:609)
-at dalvik.system.NativeStart.main(Native Method)
-</failure>
-  </testcase>
-  <testcase name="mainActivity_RecycleViewClickItem" classname="com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivityTest" time="2.632" />
-  <testcase name="mainActivity_onLaunch_RecycleViewDisplayed" classname="com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivityTest" time="1.388" />
-  <testcase name="mainActivity_RecycleViewChangeCountry" classname="com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivityTest" time="8.017" />
-  <testcase name="mainActivity_Orientation_To_Landscape" classname="com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivityTest" time="4.343" />
-  <testcase name="mainActivity_Orientation_To_Landscape_TO31" classname="com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivityTest" time="5.451" />
+  <testcase name="mainActivity_RecycleViewChangeGridSize" classname="com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivityTest" time="7.351" />
+  <testcase name="mainActivity_Display_Get_Trend_error" classname="com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivityTest" time="1.283" />
+  <testcase name="mainActivity_RecycleViewClickItem" classname="com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivityTest" time="2.451" />
+  <testcase name="mainActivity_onLaunch_RecycleViewDisplayed" classname="com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivityTest" time="1.301" />
+  <testcase name="mainActivity_RecycleViewChangeCountry" classname="com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivityTest" time="7.25" />
+  <testcase name="mainActivity_Orientation_To_Landscape" classname="com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivityTest" time="4.287" />
+  <testcase name="mainActivity_Orientation_To_Landscape_TO31" classname="com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivityTest" time="5.018" />
 </testsuite>

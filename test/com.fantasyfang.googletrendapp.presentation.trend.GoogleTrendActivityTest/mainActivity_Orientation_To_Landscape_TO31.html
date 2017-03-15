@@ -10,13 +10,13 @@
         <link href="../../static/spoon.css" rel="stylesheet">
         <script src="../../static/jquery.min.js"></script>
         <script src="../../static/bootstrap.min.js"></script>
-        <meta name="description" content="Ran on 1 device with 1 passing and 0 failing in an average of 5 seconds">
+        <meta name="description" content="Ran on 3 devices with 2 passing and 1 failing in an average of 5 seconds">
     </head>
     <body>
         <div class="container">
             <div class="hero-unit">
                 <h1>Main Activity, Orientation, To, Landscape,T O31</h1>
-                <p>Ran on 1 device with 1 passing and 0 failing in an average of 5 seconds</p>
+                <p>Ran on 3 devices with 2 passing and 1 failing in an average of 5 seconds</p>
             </div>
             <div class="row">
                 <div class="span12">
@@ -35,13 +35,72 @@
                     </h2>
                     <ul class="thumbnails">
                         <li class="span2">
-                            <a href="../../image/E4AZCY219731/com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivityTest/mainActivity_Orientation_To_Landscape_TO31/1489120008239_Choose_grid.png" class="thumbnail">
-                                <img src="../../image/E4AZCY219731/com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivityTest/mainActivity_Orientation_To_Landscape_TO31/1489120008239_Choose_grid.png" title="Choose Grid">
+                            <a href="../../image/E4AZCY219731/com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivityTest/mainActivity_Orientation_To_Landscape_TO31/1489567297767_Choose_grid.png" class="thumbnail">
+                                <img src="../../image/E4AZCY219731/com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivityTest/mainActivity_Orientation_To_Landscape_TO31/1489567297767_Choose_grid.png" title="Choose Grid">
                             </a>
                         </li>
                         <li class="span2">
-                            <a href="../../image/E4AZCY219731/com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivityTest/mainActivity_Orientation_To_Landscape_TO31/1489120009965_Landscape_screen_31.png" class="thumbnail">
-                                <img src="../../image/E4AZCY219731/com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivityTest/mainActivity_Orientation_To_Landscape_TO31/1489120009965_Landscape_screen_31.png" title="Landscape Screen 31">
+                            <a href="../../image/E4AZCY219731/com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivityTest/mainActivity_Orientation_To_Landscape_TO31/1489567299108_Landscape_screen_31.png" class="thumbnail">
+                                <img src="../../image/E4AZCY219731/com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivityTest/mainActivity_Orientation_To_Landscape_TO31/1489567299108_Landscape_screen_31.png" title="Landscape Screen 31">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="span12">
+                    <h2 class="test-result fail">
+                        HTC _A9u
+                        <!-- Icons modified from Glyphish Free. http://glyphish.com -->
+                        <a href="../../logs/HT5ATBE07136/com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivityTest/mainActivity_Orientation_To_Landscape_TO31.html" title="View device log" class="pull-right icon">
+                            <img src="../../static/icon-log.png" alt="View device log">
+                        </a>
+                        <a href="../../device/HT5ATBE07136.html" title="View only this device" class="pull-right icon">
+                            <img src="../../static/icon-devices.png" alt="View only this device">
+                        </a>
+                    </h2>
+                    <div class="alert alert-error stacktrace fail">
+                        <h4 data-toggle="collapse" data-target="#stacktrace-HT5ATBE07136">java.lang.ClassCastException: com.android.internal.policy.DecorContext cannot be cast to android.app.Activity</h4>
+                        <div class="stacktrace-body collapse" id="stacktrace-HT5ATBE07136">
+                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at com.fantasyfang.googletrendapp.presentation.utils.OrientationChangeAction.perform(OrientationChangeAction.java:65)</div>
+                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at android.support.test.espresso.ViewInteraction$1.run(ViewInteraction.java:144)</div>
+                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:428)</div>
+                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at java.util.concurrent.FutureTask.run(FutureTask.java:237)</div>
+                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at android.os.Handler.handleCallback(Handler.java:751)</div>
+                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at android.os.Handler.dispatchMessage(Handler.java:95)</div>
+                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at android.os.Looper.loop(Looper.java:173)</div>
+                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at android.app.ActivityThread.main(ActivityThread.java:6459)</div>
+                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at java.lang.reflect.Method.invoke(Native Method)</div>
+                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:938)</div>
+                            <div class="stacktrace-line">&nbsp;&nbsp;&nbsp;&nbsp;at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:828)</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="span12">
+                    <h2 class="test-result pass">
+                        LGE Nexus 5
+                        <!-- Icons modified from Glyphish Free. http://glyphish.com -->
+                        <a href="../../logs/05089ff80024dd4f/com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivityTest/mainActivity_Orientation_To_Landscape_TO31.html" title="View device log" class="pull-right icon">
+                            <img src="../../static/icon-log.png" alt="View device log">
+                        </a>
+                        <a href="../../device/05089ff80024dd4f.html" title="View only this device" class="pull-right icon">
+                            <img src="../../static/icon-devices.png" alt="View only this device">
+                        </a>
+                        <a href="../../image/05089ff80024dd4f/com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivityTest/mainActivity_Orientation_To_Landscape_TO31.gif" title="View as animated GIF" class="pull-right icon">
+                            <img src="../../static/icon-animated.png" alt="View as animated GIF">
+                        </a>
+                    </h2>
+                    <ul class="thumbnails">
+                        <li class="span2">
+                            <a href="../../image/05089ff80024dd4f/com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivityTest/mainActivity_Orientation_To_Landscape_TO31/1489567279841_Choose_grid.png" class="thumbnail">
+                                <img src="../../image/05089ff80024dd4f/com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivityTest/mainActivity_Orientation_To_Landscape_TO31/1489567279841_Choose_grid.png" title="Choose Grid">
+                            </a>
+                        </li>
+                        <li class="span2">
+                            <a href="../../image/05089ff80024dd4f/com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivityTest/mainActivity_Orientation_To_Landscape_TO31/1489567281595_Landscape_screen_31.png" class="thumbnail">
+                                <img src="../../image/05089ff80024dd4f/com.fantasyfang.googletrendapp.presentation.trend.GoogleTrendActivityTest/mainActivity_Orientation_To_Landscape_TO31/1489567281595_Landscape_screen_31.png" title="Landscape Screen 31">
                             </a>
                         </li>
                     </ul>
